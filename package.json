@@ -2,7 +2,6 @@
   "name": "uotta",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -12,8 +11,13 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.1.18",
     "clsx": "^2.1.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
     "framer-motion": "^12.26.2",
     "lucide-react": "^0.562.0",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.4",
+    "node": "^25.3.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "tailwind-merge": "^3.4.0"
